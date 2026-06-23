@@ -1,0 +1,313 @@
+<div class="container-fluid py-5 bg-light min-vh-100">
+
+  <!-- PAGE HEADER -->
+
+  <div class="row justify-content-center mb-4">
+
+    <div class="col-lg-10">
+
+      <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+
+        <!-- HEADER -->
+
+        <div class="bg-primary text-white p-4">
+
+          <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+
+            <div>
+
+              <h2 class="fw-bold mb-1">
+                Business Partner Management
+              </h2>
+
+              <p class="mb-0 opacity-75">
+                Create and manage business partner information
+              </p>
+
+            </div>
+
+            <div>
+
+              <i class="bi bi-people-fill fs-1"></i>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- BODY -->
+
+        <div class="card-body p-4">
+
+          <div class="row g-4">
+
+            <!-- SERIES -->
+
+            <div class="col-md-6">
+
+              <label class="form-label fw-semibold text-secondary">
+
+                Series
+
+              </label>
+
+              <div class="input-group">
+
+                <span class="input-group-text bg-white">
+
+                  <i class="bi bi-hash text-primary"></i>
+
+                </span>
+
+                <input
+
+                  type="text"
+
+                  class="form-control shadow-none"
+
+                  placeholder="Enter Series"
+
+                  [(ngModel)]="bpData.series">
+
+              </div>
+
+            </div>
+
+            <!-- CARD CODE -->
+
+            <div class="col-md-6">
+
+              <label class="form-label fw-semibold text-secondary">
+
+                Card Code
+
+              </label>
+
+              <div class="input-group">
+
+                <span class="input-group-text bg-white">
+
+                  <i class="bi bi-upc-scan text-primary"></i>
+
+                </span>
+
+                <input
+
+                  type="text"
+
+                  class="form-control shadow-none"
+
+                  placeholder="Enter Card Code"
+
+                  [(ngModel)]="bpData.cardCode">
+
+              </div>
+
+            </div>
+
+            <!-- CARD NAME -->
+
+            <div class="col-md-6">
+
+              <label class="form-label fw-semibold text-secondary">
+
+                Card Name
+
+              </label>
+
+              <div class="input-group">
+
+                <span class="input-group-text bg-white">
+
+                  <i class="bi bi-person-fill text-primary"></i>
+
+                </span>
+
+                <input
+
+                  type="text"
+
+                  class="form-control shadow-none"
+
+                  placeholder="Enter Card Name"
+
+                  [(ngModel)]="bpData.cardName">
+
+              </div>
+
+            </div>
+
+            <!-- PAN NUMBER -->
+
+            <div class="col-md-6">
+
+              <label class="form-label fw-semibold text-secondary">
+
+                PAN Number
+
+              </label>
+
+              <div class="input-group">
+
+                <span class="input-group-text bg-white">
+
+                  <i class="bi bi-credit-card-2-front-fill text-primary"></i>
+
+                </span>
+
+                <input
+
+                  type="text"
+
+                  class="form-control shadow-none"
+
+                  placeholder="Enter PAN Number"
+
+                  [(ngModel)]="bpData.bpFiscalTaxIDCollections[0].taxId0">
+
+              </div>
+
+            </div>
+
+            <!-- PHONE -->
+
+            <div class="col-md-6">
+
+              <label class="form-label fw-semibold text-secondary">
+
+                Phone Number
+
+              </label>
+
+              <div class="input-group">
+
+                <span class="input-group-text bg-white">
+
+                  <i class="bi bi-telephone-fill text-primary"></i>
+
+                </span>
+
+                <input
+
+                  type="text"
+
+                  class="form-control shadow-none"
+
+                  placeholder="Enter Phone Number"
+
+                  [(ngModel)]="bpData.phone1">
+
+              </div>
+
+            </div>
+
+            <!-- EMAIL -->
+
+            <div class="col-md-6">
+
+              <label class="form-label fw-semibold text-secondary">
+
+                Email Address
+
+              </label>
+
+              <div class="input-group">
+
+                <span class="input-group-text bg-white">
+
+                  <i class="bi bi-envelope-fill text-primary"></i>
+
+                </span>
+
+                <input
+
+                  type="email"
+
+                  class="form-control shadow-none"
+
+                  placeholder="Enter Email Address"
+
+                  [(ngModel)]="bpData.emailAddress">
+
+              </div>
+
+            </div>
+
+            <!-- GSTIN -->
+
+            <div class="col-md-6">
+
+              <label class="form-label fw-semibold text-secondary">
+
+                GSTIN
+
+              </label>
+
+              <div class="input-group">
+
+                <span class="input-group-text bg-white">
+
+                  <i class="bi bi-file-earmark-text-fill text-primary"></i>
+
+                </span>
+
+                <input
+
+                  type="text"
+
+                  class="form-control shadow-none"
+
+                  placeholder="Enter GSTIN"
+
+                  [(ngModel)]="bpData.gstin">
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- ACTION BUTTONS -->
+
+          <div class="d-flex justify-content-end flex-wrap gap-3 mt-5">
+
+            <!-- CREATE -->
+
+            <button
+
+              class="btn btn-primary px-4 py-2 rounded-3 shadow-sm fw-semibold"
+
+              (click)="createBP()">
+
+              <i class="bi bi-plus-circle-fill me-2"></i>
+
+              Create Partner
+
+            </button>
+
+            <!-- UPDATE -->
+
+            <button
+
+              class="btn btn-warning text-white px-4 py-2 rounded-3 shadow-sm fw-semibold"
+
+              (click)="updateBP()">
+
+              <i class="bi bi-pencil-square me-2"></i>
+
+              Update Partner
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,34 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "BusinessPartner",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/BusinessPartner": {
+      "get": {
+        "tags": [
+          "BusinessPartner"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PurchaseOrder": {
+      "get": {
+        "tags": [
+          "PurchaseOrder"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

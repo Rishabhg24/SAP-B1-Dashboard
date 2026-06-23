@@ -1,0 +1,118 @@
+<!-- NAVBAR -->
+<div>
+  
+  <app-navbar></app-navbar>
+
+</div>
+
+<!-- MAIN LAYOUT -->
+
+<div class="layout-container">
+
+  <!-- SIDEBAR -->
+
+  <aside class="sidebar shadow-lg">
+
+    <!-- LOGO -->
+
+    <div class="sidebar-header text-light">
+
+      <div class="logo-box">
+
+        <i class="bi bi-grid-fill"></i>
+
+      </div>
+
+      <div>
+
+        <h4 class="text-white">
+          My App
+        </h4>
+
+        <small class="text-light opacity-75">
+          Management Portal
+        </small>
+
+      </div>
+
+    </div>
+
+    <!-- MENU -->
+
+    <nav class="menu mt-4">
+
+      <!-- DASHBOARD -->
+
+      <a
+
+        routerLink="/app/dashboard"
+
+        routerLinkActive="active"
+
+        class="menu-item">
+
+        <i class="bi bi-speedometer2 me-3"></i>
+
+        Dashboard
+
+      </a>
+
+      <!-- ADD -->
+
+      <a
+
+        routerLink="/app/add"
+
+        routerLinkActive="active"
+
+        class="menu-item">
+
+        <i class="bi bi-plus-circle-fill me-3"></i>
+
+        Add Partner
+
+      </a>
+
+      <!-- USERS -->
+
+      <a
+
+        routerLink="/app/users"
+
+        routerLinkActive="active"
+
+        class="menu-item">
+
+        <i class="bi bi-people-fill me-3"></i>
+
+        Users
+
+      </a>
+
+    </nav>
+
+    <!-- FOOTER -->
+
+    <div class="sidebar-footer">
+
+      <div class="user-card">
+
+      </div>
+
+    </div>
+
+  </aside>
+
+  <!-- MAIN CONTENT -->
+
+  <main class="main-content">
+
+    <div class="content-wrapper">
+
+      <router-outlet></router-outlet>
+
+    </div>
+
+  </main>
+
+</div>

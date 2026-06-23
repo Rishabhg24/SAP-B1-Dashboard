@@ -1,0 +1,209 @@
+/* PAGE BACKGROUND */
+
+.container {
+
+  padding-top: 30px;
+
+}
+
+/* MAIN CARD */
+
+.card {
+
+  border: none;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+}
+
+/* HEADER */
+
+.card-header {
+
+  background: linear-gradient(135deg, #111827, #1f2937) !important;
+
+  padding: 20px 24px;
+
+  border: none;
+
+}
+
+/* HEADER TITLE */
+
+.card-header h4 {
+
+  font-size: 26px;
+
+  font-weight: 700;
+
+  margin: 0;
+
+  color: #ffffff;
+
+}
+
+/* BADGE */
+
+.badge {
+
+  background: linear-gradient(135deg, #2563eb, #2563eb) !important;
+
+  font-size: 14px;
+
+  padding: 10px 16px;
+
+  border-radius: 10px;
+
+  font-weight: 600;
+
+}
+
+/* CARD BODY */
+
+.card-body {
+
+  padding: 24px;
+
+}
+
+/* TABLE */
+
+.table {
+
+  margin-bottom: 0;
+
+  border-collapse: separate;
+
+  border-spacing: 0;
+
+}
+
+/* TABLE HEADER */
+
+.table thead {
+
+  background: linear-gradient(135deg, #111827, #1f2937);
+
+}
+
+/* TABLE HEADER CELL */
+
+.table thead th {
+
+  color: white !important;
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  padding: 16px 20px;
+
+  border: none;
+
+  vertical-align: middle;
+
+}
+
+/* TABLE BODY ROW */
+
+.table tbody tr {
+
+  transition: all 0.3s ease;
+
+}
+
+/* HOVER EFFECT */
+
+.table-hover tbody tr:hover {
+
+  background: #f3f6fb;
+
+  transform: scale(1.002);
+
+}
+
+/* TABLE BODY CELL */
+
+.table tbody td {
+
+  padding: 16px 20px;
+
+  font-size: 15px;
+
+  color: #374151;
+
+  border-color: #eef2f7;
+
+  vertical-align: middle;
+
+}
+
+/* SERIAL NUMBER */
+
+.table tbody td:first-child {
+
+  font-weight: 700;
+
+  color: #2563eb;
+
+  width: 80px;
+
+}
+
+/* USERNAME */
+
+.table tbody td:last-child {
+
+  font-weight: 500;
+
+}
+
+/* EMPTY STATE */
+
+.text-muted {
+
+  padding: 40px 0;
+
+  font-size: 16px;
+
+  color: #9ca3af !important;
+
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .card-header {
+
+    flex-direction: column;
+
+    align-items: flex-start !important;
+
+    gap: 12px;
+
+  }
+
+  .card-header h4 {
+
+    font-size: 22px;
+
+  }
+
+  .table thead th,
+
+  .table tbody td {
+
+    padding: 14px;
+
+    font-size: 14px;
+
+  }
+
+}

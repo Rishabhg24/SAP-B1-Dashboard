@@ -1,0 +1,85 @@
+<div class="container py-4">
+
+  <!-- TABLE CARD -->
+
+  <div class="card shadow-lg border-0">
+
+    <div class="card-header
+                d-flex
+                justify-content-between
+                align-items-center
+                bg-dark
+                text-white">
+
+      <h4 class="mb-0">
+
+        Users List
+
+      </h4>
+
+      <span class="badge bg-primary">
+
+        Total:
+        {{ users.length }}
+
+      </span>
+
+    </div>
+
+    <div class="card-body">
+
+      <div class="table-responsive">
+
+        <table class="table table-hover align-middle">
+
+          <thead class="table-dark">
+
+            <tr>
+
+              <th>No.</th>
+
+              <th>Username</th>
+
+            </tr>
+
+          </thead>
+
+          <tbody>
+
+            <tr
+              *ngFor="
+                let user of users;
+                let i = index
+              ">
+
+              <td>{{ i + 1 }}</td>
+
+              <td>{{ user.username }}</td>
+
+            </tr>
+
+            <!-- NO DATA -->
+
+            <tr *ngIf="users.length === 0">
+
+              <td
+                colspan="2"
+                class="text-center text-muted">
+
+                No Users Found
+
+              </td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

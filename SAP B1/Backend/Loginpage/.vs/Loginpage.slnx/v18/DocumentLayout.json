@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\Loginpage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|d:\\c#\\loginpage\\loginpage\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|solutionrelative:loginpage\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|d:\\c#\\loginpage\\loginpage\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|solutionrelative:loginpage\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|d:\\c#\\loginpage\\loginpage\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|solutionrelative:loginpage\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|d:\\c#\\loginpage\\loginpage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|solutionrelative:loginpage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|d:\\c#\\loginpage\\loginpage\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|solutionrelative:loginpage\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|d:\\c#\\loginpage\\loginpage\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|solutionrelative:loginpage\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|d:\\c#\\loginpage\\loginpage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|solutionrelative:loginpage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|d:\\c#\\loginpage\\loginpage\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|solutionrelative:loginpage\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|d:\\c#\\loginpage\\loginpage\\models\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|solutionrelative:loginpage\\models\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|d:\\c#\\loginpage\\loginpage\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|solutionrelative:loginpage\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|d:\\c#\\loginpage\\loginpage\\loginpage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E69DC1C2-A5AA-C45D-FD08-3D155CE7850B}|Loginpage\\Loginpage.csproj|solutionrelative:loginpage\\loginpage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\C#\\Loginpage\\Loginpage\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Loginpage\\Models\\ApiResponse.cs",
+              "ToolTip": "D:\\C#\\Loginpage\\Loginpage\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "Loginpage\\Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T10:52:57.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\C#\\Loginpage\\Loginpage\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Loginpage\\Services\\AuthService.cs",
+              "ToolTip": "D:\\C#\\Loginpage\\Loginpage\\Services\\AuthService.cs",
+              "RelativeToolTip": "Loginpage\\Services\\AuthService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwJoBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T10:59:09.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\C#\\Loginpage\\Loginpage\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Loginpage\\Models\\LoginRequest.cs",
+              "ToolTip": "D:\\C#\\Loginpage\\Loginpage\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Loginpage\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T10:52:42.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Loginpage\\Loginpage\\Program.cs",
+              "RelativeDocumentMoniker": "Loginpage\\Program.cs",
+              "ToolTip": "D:\\C#\\Loginpage\\Loginpage\\Program.cs",
+              "RelativeToolTip": "Loginpage\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T05:51:43.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C#\\Loginpage\\Loginpage\\appsettings.json",
+              "RelativeDocumentMoniker": "Loginpage\\appsettings.json",
+              "ToolTip": "D:\\C#\\Loginpage\\Loginpage\\appsettings.json",
+              "RelativeToolTip": "Loginpage\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-01T11:00:57.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\C#\\Loginpage\\Loginpage\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Loginpage\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\C#\\Loginpage\\Loginpage\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "Loginpage\\Controllers\\AuthController.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T10:50:54.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\C#\\Loginpage\\Loginpage\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Loginpage\\Services\\JwtService.cs",
+              "ToolTip": "D:\\C#\\Loginpage\\Loginpage\\Services\\JwtService.cs",
+              "RelativeToolTip": "Loginpage\\Services\\JwtService.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T09:27:23.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\C#\\Loginpage\\Loginpage\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Loginpage\\Services\\IAuthService.cs",
+              "ToolTip": "D:\\C#\\Loginpage\\Loginpage\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Loginpage\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T10:58:48.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\C#\\Loginpage\\Loginpage\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Loginpage\\Models\\UserModel.cs",
+              "ToolTip": "D:\\C#\\Loginpage\\Loginpage\\Models\\UserModel.cs",
+              "RelativeToolTip": "Loginpage\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T11:21:28.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignupRequest.cs",
+              "DocumentMoniker": "D:\\C#\\Loginpage\\Loginpage\\Models\\SignupRequest.cs",
+              "RelativeDocumentMoniker": "Loginpage\\Models\\SignupRequest.cs",
+              "ToolTip": "D:\\C#\\Loginpage\\Loginpage\\Models\\SignupRequest.cs",
+              "RelativeToolTip": "Loginpage\\Models\\SignupRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T10:53:10.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Loginpage.csproj",
+              "DocumentMoniker": "D:\\C#\\Loginpage\\Loginpage\\Loginpage.csproj",
+              "RelativeDocumentMoniker": "Loginpage\\Loginpage.csproj",
+              "ToolTip": "D:\\C#\\Loginpage\\Loginpage\\Loginpage.csproj",
+              "RelativeToolTip": "Loginpage\\Loginpage.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-03T06:59:28.785Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

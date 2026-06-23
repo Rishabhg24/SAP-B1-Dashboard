@@ -1,0 +1,229 @@
+/* PAGE BACKGROUND */
+
+.container-fluid {
+
+  background: #f4f6f9;
+
+  min-height: 100vh;
+
+  padding-top: 30px !important;
+
+}
+
+/* MAIN CARD */
+
+.card {
+
+  border: none;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+
+}
+
+/* HEADER */
+
+.bg-primary {
+
+  background: linear-gradient(135deg, #111827, #1f2937) !important;
+
+  padding: 28px !important;
+
+}
+
+/* TITLE */
+
+.bg-primary h2 {
+
+  font-size: 28px;
+
+  font-weight: 700;
+
+  margin-bottom: 6px;
+
+}
+
+/* SUBTITLE */
+
+.bg-primary p {
+
+  font-size: 15px;
+
+  color: rgba(255,255,255,0.7);
+
+}
+
+/* HEADER ICON */
+
+.bg-primary i {
+
+  font-size: 42px !important;
+
+}
+
+/* CARD BODY */
+
+.card-body {
+
+  padding: 28px;
+
+}
+
+/* FORM LABEL */
+
+.form-label {
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  margin-bottom: 8px;
+
+  color: #374151 !important;
+
+}
+
+/* INPUT GROUP */
+
+.input-group {
+
+  border-radius: 12px;
+
+  overflow: hidden;
+
+}
+
+/* INPUT ICON */
+
+.input-group-text {
+
+  background: white;
+
+  border: 1px solid #d1d5db;
+
+  border-right: none;
+
+  padding: 10px 14px;
+
+}
+
+/* ICON */
+
+.input-group-text i {
+
+  color: #2563eb !important;
+
+  font-size: 16px;
+
+}
+
+/* INPUT */
+
+.form-control {
+
+  height: 48px;
+
+  border: 1px solid #d1d5db;
+
+  border-left: none;
+
+  font-size: 15px;
+
+  box-shadow: none !important;
+
+}
+
+/* INPUT FOCUS */
+
+.form-control:focus {
+
+  border-color: #2563eb;
+
+}
+
+/* BUTTON AREA */
+
+.mt-5 {
+
+  margin-top: 30px !important;
+
+}
+
+/* BUTTON */
+
+.btn {
+
+  min-width: 180px;
+
+  height: 48px;
+
+  border-radius: 12px;
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  border: none;
+
+}
+
+/* CREATE BUTTON */
+
+.btn-primary {
+
+  background: linear-gradient(135deg, #111827, #1f2937);
+
+}
+
+/* UPDATE BUTTON */
+
+.btn-warning {
+
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+
+  color: white !important;
+
+}
+
+/* BUTTON HOVER */
+
+.btn:hover {
+
+  transform: translateY(-2px);
+
+}
+
+/* ROW SPACING */
+
+.g-4 {
+
+  --bs-gutter-y: 1.5rem;
+
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .bg-primary h2 {
+
+    font-size: 24px;
+
+  }
+
+  .card-body {
+
+    padding: 20px;
+
+  }
+
+  .btn {
+
+    width: 100%;
+
+  }
+
+}

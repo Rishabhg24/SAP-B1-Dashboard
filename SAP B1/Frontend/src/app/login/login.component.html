@@ -1,0 +1,52 @@
+<div class="container mt-5">
+
+  <div class="card p-4 shadow-lg mx-auto"
+       style="max-width: 400px; border-radius: 15px;">
+
+    <h2 class="text-center mb-4">
+      Login
+    </h2>
+
+    <!-- USERNAME -->
+
+    <input type="text"
+           placeholder="Username"
+           class="form-control mb-3"
+           [(ngModel)]="loginData.username">
+
+    <!-- PASSWORD -->
+
+    <input type="password"
+           placeholder="Password"
+           class="form-control mb-3"
+           [(ngModel)]="loginData.password">
+
+    <!-- LOGIN BUTTON -->
+
+    <button class="btn btn-primary w-100 mb-3"
+            (click)="login()">
+
+      Login
+
+    </button>
+
+    <!-- SIGNUP SECTION -->
+
+    <div class="text-center">
+
+      <span>
+        Don't have an account?
+      </span>
+
+      <a routerLink="/signup"
+         class="text-decoration-none fw-bold ms-1">
+
+        Signup
+
+      </a>
+
+    </div>
+
+  </div>
+
+</div>

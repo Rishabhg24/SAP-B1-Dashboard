@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "BusinessPartner.Controllers.BusinessPartnerController",
+    "Method": "Get",
+    "RelativePath": "api/BusinessPartner",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusinessPartner.Controllers.PurchaseOrderController",
+    "Method": "Get",
+    "RelativePath": "api/PurchaseOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
